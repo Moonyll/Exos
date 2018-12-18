@@ -19,7 +19,7 @@ namespace ConsoleApp13
             c = DateTime.Today;
             Console.WriteLine("Bonjour " + a + " " + b + ", nous sommes le "+ ToShortDateString(DateTime.Today) + ",comment allez vous ?");
             Console.ReadKey();
-
+// DateTime.Now.ToLongDateString() affiche date normalement en version longue ou aussi Long par Short
 
         }
     }
